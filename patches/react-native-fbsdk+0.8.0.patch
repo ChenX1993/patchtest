@@ -1,0 +1,16 @@
+patch-package
+new file mode 100644
+Binary files /dev/null and b/node_modules/react-native-fbsdk/.DS_Store differ
+--- a/node_modules/react-native-fbsdk/android/src/main/java/com/facebook/reactnative/androidsdk/FBSDKPackage.java
++++ b/node_modules/react-native-fbsdk/android/src/main/java/com/facebook/reactnative/androidsdk/FBSDKPackage.java
+@@ -67,7 +67,7 @@ public class FBSDKPackage implements ReactPackage {
+                 new FBShareButtonManager()
+         );
+     }
+-
++    // just for check
+     // Deprecated in RN 0.47.0
+     public List<Class<? extends JavaScriptModule>> createJSModules() {
+         return Collections.emptyList();
+new file mode 100644
+Binary files /dev/null and b/node_modules/react-native-fbsdk/ios/.DS_Store differ
